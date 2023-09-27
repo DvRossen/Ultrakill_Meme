@@ -42,7 +42,7 @@ namespace Nice_Argument2
            
             Thread.Sleep(500);
 
-            if (!RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
             {
 
                 Console.Write("AUDIO\t");
